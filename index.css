@@ -1,0 +1,386 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+
+}
+
+.container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: absolute;
+}
+
+.logo img {
+    height: 70px;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.menu{
+    margin-top: 20px;
+    width: auto;
+    color: black;
+    height: 100%;
+  
+}
+
+.menu a{
+    text-decoration: none;
+    margin-left: 8px;
+    font-size: 20px;
+    font-weight: 530;
+    color: black;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.dropdown a i{
+    font-size: 12px;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    height: auto;
+    transition: 5s;
+
+    
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: 2s;
+
+   
+
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+  
+/* -------- Slider -------- */
+
+.text {
+    color: red;
+    font-size: 50px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 40%;
+    left: -70px;
+    width: 50%;
+    text-align: center;
+}
+
+.container-appoinment {
+    position: relative;
+    top: -40px;
+    height: 220px;
+    width: 95%;
+    margin-left: 2.5%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.book-appoinment {
+    background: #4d5e5d;
+    width: 100%;
+    height: 100%;
+}
+.book-row1 img{
+    width: 40px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.book-row2 img{
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.book-row1 p{
+    margin-left: 60px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.book-row2 p{
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+.book-row2{
+    display: flex;
+    
+}
+
+.helth-package {
+    background-color: #657675;
+    width: 100%;
+    height: 100%;
+
+}
+.helth-package img{
+    width: 50px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.helth-package p{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.helth-package button{
+    margin-left: 50px;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background: transparent;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.free-delivery {
+    background-color:#4d5e5d;
+    width: 100%;
+    height: 100%;
+}
+.free-delivery img{
+    height: 50px;
+    width: 50px;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+.free-delivery p{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 50px;
+}
+.free-delivery button{
+    margin-left: 50px;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    background: transparent;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+.free-delivery button i span{
+    margin-left: 10px;
+}
+.free-delivery-btn:hover{
+    color: black;
+    background: white;
+    transition: .5s;
+}
+.request-btn:hover{
+    background: red;
+    color: white;
+    transition: 1s left;
+}
+.text-ourdepartments{
+    color: red;
+    text-align: center;
+}
+.slider-container{
+    height: 100vh;
+    width: 100%;
+}
+.mySlides1 img{
+
+    width: 100%;
+    height: 100vh;
+
+}
+
+.appoinment{
+    position: relative;
+    top:20px;
+    height: 100px;
+    width: 100%;
+    background: red;
+   
+}
+
+
+.appoinment button{
+    margin-top: 40px;
+    margin-left: 40%;
+    width: 230px;
+    height: 40px;
+    padding: 2px;
+    font-weight: 600;
+    color: red;
+    border-radius: 40px;
+    background: white;
+    border: none;
+    outline: none;
+}
+.fa-offerd{
+    height: 120vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,.6),
+    rgba(0,0,0,.6)), url('icons/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 0;
+    left: 0;
+ 
+}
+.card-frame{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-left: 5%;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.fa-offerd h1{
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+    margin-bottom: 80px;
+}
+.card{
+    height: 190px;
+    width: 280px;
+    border-radius: 15px;
+    background: white;
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+  
+}
+
+.card img{
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+    color: red;
+    margin-top: 30px;
+}.card i{
+    font-size: 15px;
+    background: rgb(13, 13, 118);
+    border-radius: 50%;
+    padding: 7px;
+    color: white;
+    margin-left: 50px;
+    transition: .5s;  
+    display: none;
+}
+.card p{
+    margin-left: 50px;
+}
+
+.about{
+    height: 150vh;
+    width: 100%;
+    background: rgba(0, 0, 0);
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.title{
+    height: 100px;
+    width: 100%;
+    color: wheat;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.title h1{
+    text-transform: uppercase;
+}
+
+.main-container{
+    display: flex;
+   justify-content: space-around;
+}
+.video-left{
+    width: 40%;
+    height: 600px;
+    margin-left: 5%;
+   
+}
+.video-left video{
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.text-right{
+    width: 50%;
+    height: 600px;
+    margin-left: 3%;
+    color: white;
+}
+.text-right i{
+    font-size: 17px;
+    color: red;
+    padding: 5px;
+  
+}
+.text-right p{
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 30px;
+    width: 80%;
+}
+.text-right .para1{
+    font-size: 20px;
+    font-weight: 500;
+    width: 80%;
+    margin-top: -.1px;
+    margin-left: -1px;
+}
+.fa-check1{
+    position: absolute;
+    top: 440px;
+}
+.fa-check2{
+    position: absolute;
+    top: 495px;
+}
+.fa-check3{
+    position: absolute;
+    top: 545px;
+}
+.text-right-btn{
+    display: inline-block;
+    height: 55px;
+    width: 190px;
+    background: red;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    overflow: hidden;
+    border: none;
+    margin-top: 40px;
+}
+.text-right-btn i{
+    color: white;
+    font-size: 20px;
+}
